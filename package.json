@@ -1,0 +1,15 @@
+{
+  "name": "lucid-marketplace-backend",
+  "version": "1.0.0",
+  "description": "This is the nodejs API server for lucid marketplace project (final project)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index"
+  },
+  "author": "Dipesh Shrestha",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "nodemon": "^2.0.22"
+  }
+}

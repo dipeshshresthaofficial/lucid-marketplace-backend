@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Dipesh</title>
+  <link href="./assets/style.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <a href="#home-sec" id="scroll-to-top">
+      <svg viewBox="0 0 448 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M201.4 105.4C213.9 92.9 234.2 92.9 246.7 105.4L438.7 297.4C451.2 309.9 451.2 330.2 438.7 342.7C426.2 355.2 405.9 355.2 393.4 342.7L224 173.3L54.6 342.6C42.1 355.1 21.8 355.1 9.29999 342.6C-3.20001 330.1 -3.20001 309.8 9.29999 297.3L201.3 105.3L201.4 105.4Z" fill="#1DB954"/>
+      </svg>
+        
+    </a>
+    
+    <div id="content">
+      <div id="sidebar">
+        <div id="logo">DS</div>
+        <label for="toggle" id="ham-burger">&#9776;</label>
+        <input type="checkbox" id="toggle"/>
+        <ul id="nav">
+  
+          <li>
+            <a class="list-items active" href="#home-sec">
+              <span class="sidebar-icons">
+                <svg viewBox="0 0 448 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M224 256C257.948 256 290.505 242.514 314.51 218.51C338.514 194.505 352 161.948 352 128C352 94.0523 338.514 61.495 314.51 37.4903C290.505 13.4857 257.948 0 224 0C190.052 0 157.495 13.4857 133.49 37.4903C109.486 61.495 96 94.0523 96 128C96 161.948 109.486 194.505 133.49 218.51C157.495 242.514 190.052 256 224 256ZM178.3 304C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3C434.7 512 448 498.7 448 482.3C448 383.8 368.2 304 269.7 304H178.3Z" fill="#7A7878"/>
+                </svg>
+              </span>
+              <span>Bio</span>
+            </a>
+          </li>
+          <li>
+            <a class="list-items" href="#edu-sec">
+              <span class="sidebar-icons">
+                <svg viewBox="0 0 580 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M320.015 0C311.915 0 303.915 1.4 296.315 4.1L15.8154 105.4C6.31539 108.9 0.0153923 117.9 0.0153923 128C0.0153923 138.1 6.31539 147.1 15.8154 150.6L73.7154 171.5C57.3154 197.3 48.0154 227.8 48.0154 259.9V288C48.0154 316.4 37.2154 345.7 25.7154 368.8C19.2154 381.8 11.8154 394.6 3.21539 406.4C0.0153923 410.7 -0.884608 416.3 0.915392 421.4C2.71539 426.5 6.91539 430.3 12.1154 431.6L76.1154 447.6C80.3154 448.7 84.8154 447.9 88.5154 445.6C92.2154 443.3 94.8154 439.5 95.6154 435.2C104.215 392.4 99.9154 354 93.5154 326.5C90.3154 312.3 86.0154 297.8 80.0154 284.5V259.9C80.0154 229.7 90.2154 201.2 107.915 178.4C120.815 162.9 137.515 150.4 157.115 142.7L314.115 81C322.315 77.8 331.615 81.8 334.815 90C338.015 98.2 334.015 107.5 325.815 110.7L168.815 172.4C156.415 177.3 145.515 184.8 136.615 194L296.215 251.6C303.815 254.3 311.815 255.7 319.915 255.7C328.015 255.7 336.015 254.3 343.615 251.6L624.215 150.6C633.715 147.2 640.015 138.1 640.015 128C640.015 117.9 633.715 108.9 624.215 105.4L343.715 4.1C336.115 1.4 328.115 0 320.015 0ZM128.015 376C128.015 411.3 214.015 448 320.015 448C426.015 448 512.015 411.3 512.015 376L496.715 230.6L354.515 282C343.415 286 331.715 288 320.015 288C308.315 288 296.515 286 285.515 282L143.315 230.6L128.015 376Z" fill="#7A7878"/>
+                  </svg>
+                  
+              </span>
+              <span>
+                Education
+              </span>
+            </a>
+          </li>
+          <li>
+            <a class="list-items" href="#exp-sec">
+              <span class="sidebar-icons">
+                <svg viewBox="0 0 512 480" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M184 48H328C332.4 48 336 51.6 336 56V96H176V56C176 51.6 179.6 48 184 48ZM128 56V96H64C28.7 96 0 124.7 0 160V256H192H320H512V160C512 124.7 483.3 96 448 96H384V56C384 25.1 358.9 0 328 0H184C153.1 0 128 25.1 128 56ZM512 288H320V320C320 337.7 305.7 352 288 352H224C206.3 352 192 337.7 192 320V288H0V416C0 451.3 28.7 480 64 480H448C483.3 480 512 451.3 512 416V288Z" fill="#7A7878"/>
+                  </svg>
+                  
+              </span>
+              <span>
+                Experience
+              </span>
+  
+            </a>
+          </li>
+          <li>
+            <a class="list-items" href="#prj-sec">
+              <span class="sidebar-icons">
+                <svg viewBox="0 0 512 433" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M152.1 7.19995C162 16.0999 162.8 31.1999 153.9 41.0999L81.9 121.1C77.5 126 71.3 128.9 64.7 129C58.1 129.1 51.7999 126.6 47.0999 122L6.99995 81.9999C-2.30005 72.5999 -2.30005 57.3999 6.99995 47.9999C16.3 38.5999 31.6 38.5999 40.9 47.9999L63 70.0999L118.1 8.89995C127 -1.00005 142.1 -1.80006 152 7.09994L152.1 7.19995ZM152.1 167.2C162 176.1 162.8 191.2 153.9 201.1L81.9 281.1C77.5 286 71.3 288.9 64.7 289C58.1 289.1 51.7999 286.6 47.0999 282L6.99995 242C-2.40005 232.6 -2.40005 217.4 6.99995 208.1C16.4 198.8 31.6 198.7 40.9 208.1L63 230.2L118.1 169C127 159.1 142.1 158.3 152 167.2H152.1ZM224 64.9999C224 47.2999 238.3 32.9999 256 32.9999H480C497.7 32.9999 512 47.2999 512 64.9999C512 82.6999 497.7 96.9999 480 96.9999H256C238.3 96.9999 224 82.6999 224 64.9999ZM224 225C224 207.3 238.3 193 256 193H480C497.7 193 512 207.3 512 225C512 242.7 497.7 257 480 257H256C238.3 257 224 242.7 224 225ZM160 385C160 367.3 174.3 353 192 353H480C497.7 353 512 367.3 512 385C512 402.7 497.7 417 480 417H192C174.3 417 160 402.7 160 385ZM48 337C60.7303 337 72.9393 342.057 81.9411 351.059C90.9428 360.061 96 372.27 96 385C96 397.73 90.9428 409.939 81.9411 418.941C72.9393 427.943 60.7303 433 48 433C35.2696 433 23.0606 427.943 14.0588 418.941C5.05708 409.939 -4.91142e-05 397.73 -4.91142e-05 385C-4.91142e-05 372.27 5.05708 360.061 14.0588 351.059C23.0606 342.057 35.2696 337 48 337Z" fill="#7A7878"/>
+                  </svg>
+                  
+              </span>
+              <span>Project</span>
+            </a>
+          </li>
+          <li>
+            <a class="list-items" href="#blog-sec">
+              <span class="sidebar-icons">
+                <svg viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M192 32C192 49.7 206.3 64 224 64C347.7 64 448 164.3 448 288C448 305.7 462.3 320 480 320C497.7 320 512 305.7 512 288C512 128.9 383.1 0 224 0C206.3 0 192 14.3 192 32ZM192 128C192 145.7 206.3 160 224 160C294.7 160 352 217.3 352 288C352 305.7 366.3 320 384 320C401.7 320 416 305.7 416 288C416 182 330 96 224 96C206.3 96 192 110.3 192 128ZM96 144C96 117.5 74.5 96 48 96C21.5 96 0 117.5 0 144V368C0 447.5 64.5 512 144 512C223.5 512 288 447.5 288 368C288 288.5 223.5 224 144 224H128V320H144C170.5 320 192 341.5 192 368C192 394.5 170.5 416 144 416C117.5 416 96 394.5 96 368V144Z" fill="#7A7878"/>
+                </svg>
+              </span>
+              <span>Blog</span>
+            </a>
+          </li>
+          <li>
+            <a class="list-items" href="#contact-sec">
+              <span class="sidebar-icons">
+                <svg viewBox="0 0 512 448" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M121 0C91.6 0 66 20 58.9 48.5L1.9 276.4C0.6 281.5 0 286.7 0 291.9V384C0 419.3 28.7 448 64 448H448C483.3 448 512 419.3 512 384V291.9C512 286.7 511.4 281.5 510.1 276.4L453.1 48.5C446 20 420.4 0 391 0H121ZM121 64H391L439 256H387.8C375.7 256 364.6 262.8 359.2 273.7L344.9 302.3C339.5 313.1 328.4 320 316.3 320H195.8C183.7 320 172.6 313.2 167.2 302.3L152.9 273.7C147.5 262.9 136.4 256 124.3 256H73L121 64Z" fill="#7A7878"/>
+                  </svg>
+                  
+              </span>
+              <span>Contact</span>
+  
+            </a>
+          </li>
+        </ul>
+  
+      </div>
+      <!-- ---------------Home (Landing) Section---------------------- -->
+      <section id="home-sec">
+        <div id="outer-cont" class="sec-cont">
+
+          <div id="main-content">
+            <h3>Hi,</h3>
+            <h1>I'm<span class="portfolio-highlights"> Dipesh Shrestha</span>.</h1>
+            <h1>I build things for the <span class="portfolio-highlights">web</span>.</h1>
+            <p>Diligent and enthusiastic computer science graduate student, conversant with UX design and development
+              technologies. Previous corporate experience as a Software Engineer at Oracle Cerner.
+              Commends by clients and management for development skills and best turnaround time.</p>
+            <button id="resume-btn">
+              <a target="_blank" href="https://drive.google.com/file/d/1lFmcfNIx3Y71xdmRURDKJ1qREEPZOAej/view?usp=sharing">
+                Resume
+              </a>
+            </button>
+          </div>
+  
+          <div id="profile-img">
+            <img src="./assets/images/dipesh_photo.jpg" alt="profile image" />
+          </div>
+        </div>
+      </section>
+
+      <!-- --------------------- About Me (Bio) Section --------------------------------- -->
+      <section id="bio-sec">
+        
+        <h2>About Me</h2>
+        <div id="bio-sec-cont" class="sec-cont">
+
+          <div id="bio-cont">
+            <div id="bio-desc">
+              <p>
+                Hello! My name is Dipesh, I was born in <span class="portfolio-highlights">Nepal</span>, 
+                a land of beauty with antique buildings, 
+                gorgeous mountains, and diverse cultures. I'm a a quick learner and enjoy creating things that 
+                live on the internet. My interest in web development started back in 2011 when 
+                I first started with HTML and CSS. <br/><br/>
+                As of today, I’ve had the privilege of working at 
+                <span class="portfolio-highlights">Oracle Cerner</span>, 
+                a <span class="portfolio-highlights">Fortune 500</span> Healthcare IT company.
+                I have also been certified with industry leading 
+                <span class="portfolio-highlights">ITIL v4 certification</span>.<br/><br/>
+                Currently, I'm in United States pursuing my 
+                <span class="portfolio-highlights">Master's degree in Computer Science</span> 
+                from University of New Haven. Also, I have got an oppertunity to work as a
+                <span class="portfolio-highlights">Graduate Assistant </span>at University Immigration Services 
+                of the university.<br/><br/>
+                 
+                Here the <span class="portfolio-highlights">wordcloud</span> represents the list of techologies I'm familiar with.
+              </p>
+            </div>     
+            <div id="skills">
+              <img src="./assets/images/skill_wordcloud.png" alt="Dipesh Skills"/>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ------------------ Education Section ------------------- -->
+      <section id="edu-sec">        
+        <h2>My Education</h2>
+        <div id="edu-sec-cont" class="sec-cont">
+          <div id="edu-cont" >
+            <div id="edu-headings">
+              <button id="edu-tab-0">University of New Haven</button>
+              <button id="edu-tab-1">New Horizon College of Engineering</button>
+              <!-- <button button id="edu-tab-1">New Horizon College of Engineering</button> -->
+            </div>
+            <div id="edu-desc">
+              <div id="edu-panel-0">
+                <h3>Master of Science in Computer Science</h3>
+                <p>Aug 2022 - May 2024</p>
+                <div class="edu-desc-lst">
+                  <ul>
+                    <li>Completing courses focusing on Software Design Methodology, Theory, Analysis and Computer Systems.</li>
+                    <li>Awarded with prestigious Dean's Scholarship</li>
+                    <li>Acquired Graduate Assistantship position</li>
+                  </ul>
+                </div>
+                <div id="edu-panel-1">
+                  <h3>Bachelor of Engineering in Computer Science and Engineering</h3>
+                  <p>Jul 2017 - Jul 2021</p>
+                  <div  class="edu-desc-lst">
+                    <ul>
+                      <li>Secure 9.57 CGPA out of 10</li>
+                      <li>Completed competitive courses focusing and Software design and development</li>
+                      <li>Acquired Class Representative position</li>
+                    </ul>
+                  </div>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ----------------Experience Section ------------------------------ -->
+      <section id="exp-sec">
+        
+        <h2>My Experience</h2>
+        <div  id="exp-sec-cont" class="sec-cont">
+          <div id="exp-cont">
+            <div id="exp-desc">
+              <div id="exp-panel-0">
+                <h3>Software Engineer I</h3>
+                <p>Jun 2021 - Aug 2022</p>
+                <div  class="exp-desc-lst">
+                  <ul>
+                    <li>Analyzed client’s healthcare data, developed custom reports and visualization dashboards which helped doctors and hospital management to provide proper care to patients, keep track of medication and handle emergency cases.</li>
+                    <li>Worked on critical Covid19 projects and reports which helped the clients make easy decision to improve patient outcomes.</li>
+                    <li>Contributed the team to improve the process workflow to increase the productivity and maintain the turnaround time.</li>
+                    <li>Provided comprehensive report level status through weekly meetings to clients and onsite associates.</li>
+                  </ul>
+                </div>
+              </div>
+              <div id="exp-panel-1">
+                <h3>Master of Science in Computer Science</h3>
+                <p>Aug 2022 - May 2024</p>
+                <div  class="exp-desc-lst">
+                  <ul>
+                    <li>completed courses focusing towards development skills</li>
+                    <li>received dean's scholarship</li>
+                    <li>graduate assistantship</li>
+                  </ul>
+                </div>
+                
+              </div>
+            </div>
+            <div id="exp-headings">
+              <button id="exp-tab-0">Oracle Cerner</button>
+              <button id="exp-tab-1">Oracle Cerner</button>
+              <button id="exp-tab-2">Bright Future Software Technology</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ------------------Project Section --------------------------- -->
+      <section id="prj-sec">
+        <h2>My Projects</h2>
+        <div id="prj-sec-cont" class="sec-cont">
+
+          <div  class="prj-cont"  >
+            <div class="prj-pic-cont prj-pic-cont-left">
+              <img src="./assets/images/UIS_UNH_Feedback_Flyer_II.png" alt="Project 1"/>
+            </div>
+            <div class="prj-desc-cont">
+              <span class="prj-type">Hackathon Project</span>
+              <h3 class="prj-title">Precise Covid19</h3>
+              <p class="prj-desc">Precise Covid19 is an android application that helps users perform virtual Covid19 risk tests, interact with Chatbot, and also check
+                for availability of protective gears like masks, sanitizers, gloves, etc. from the nearest pharmacy. 
+              </p>
+              <ul class="tech-tools">
+                <li>Java</li>
+                <li>Android</li>
+                <li>Firebase</li>
+              </ul>
+              <div class="ext-links">
+                <a href="#" ><svg viewBox="0 0 496 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M165.9 397.4C165.9 399.4 163.6 401 160.7 401C157.4 401.3 155.1 399.7 155.1 397.4C155.1 395.4 157.4 393.8 160.3 393.8C163.3 393.5 165.9 395.1 165.9 397.4ZM134.8 392.9C134.1 394.9 136.1 397.2 139.1 397.8C141.7 398.8 144.7 397.8 145.3 395.8C145.9 393.8 144 391.5 141 390.6C138.4 389.9 135.5 390.9 134.8 392.9ZM179 391.2C176.1 391.9 174.1 393.8 174.4 396.1C174.7 398.1 177.3 399.4 180.3 398.7C183.2 398 185.2 396.1 184.9 394.1C184.6 392.2 181.9 390.9 179 391.2ZM244.8 8C106.1 8 0 113.3 0 252C0 362.9 69.8 457.8 169.5 491.2C182.3 493.5 186.8 485.6 186.8 479.1C186.8 472.9 186.5 438.7 186.5 417.7C186.5 417.7 116.5 432.7 101.8 387.9C101.8 387.9 90.4 358.8 74 351.3C74 351.3 51.1 335.6 75.6 335.9C75.6 335.9 100.5 337.9 114.2 361.7C136.1 400.3 172.8 389.2 187.1 382.6C189.4 366.6 195.9 355.5 203.1 348.9C147.2 342.7 90.8 334.6 90.8 238.4C90.8 210.9 98.4 197.1 114.4 179.5C111.8 173 103.3 146.2 117 111.6C137.9 105.1 186 138.6 186 138.6C206 133 227.5 130.1 248.8 130.1C270.1 130.1 291.6 133 311.6 138.6C311.6 138.6 359.7 105 380.6 111.6C394.3 146.3 385.8 173 383.2 179.5C399.2 197.2 409 211 409 238.4C409 334.9 350.1 342.6 294.2 348.9C303.4 356.8 311.2 371.8 311.2 395.3C311.2 429 310.9 470.7 310.9 478.9C310.9 485.4 315.5 493.3 328.2 491C428.2 457.8 496 362.9 496 252C496 113.3 383.5 8 244.8 8ZM97.2 352.9C95.9 353.9 96.2 356.2 97.9 358.1C99.5 359.7 101.8 360.4 103.1 359.1C104.4 358.1 104.1 355.8 102.4 353.9C100.8 352.3 98.5 351.6 97.2 352.9ZM86.4 344.8C85.7 346.1 86.7 347.7 88.7 348.7C90.3 349.7 92.3 349.4 93 348C93.7 346.7 92.7 345.1 90.7 344.1C88.7 343.5 87.1 343.8 86.4 344.8ZM118.8 380.4C117.2 381.7 117.8 384.7 120.1 386.6C122.4 388.9 125.3 389.2 126.6 387.6C127.9 386.3 127.3 383.3 125.3 381.4C123.1 379.1 120.1 378.8 118.8 380.4ZM107.4 365.7C105.8 366.7 105.8 369.3 107.4 371.6C109 373.9 111.7 374.9 113 373.9C114.6 372.6 114.6 370 113 367.7C111.6 365.4 109 364.4 107.4 365.7Z" fill="#7A7878"/>
+                  </svg>
+                  
+                  </a>
+                <a href="#"><svg viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_1_8)">
+                  <path d="M320 0C302.3 0 288 14.3 288 32C288 49.7 302.3 64 320 64H402.7L201.4 265.4C188.9 277.9 188.9 298.2 201.4 310.7C213.9 323.2 234.2 323.2 246.7 310.7L448 109.3V192C448 209.7 462.3 224 480 224C497.7 224 512 209.7 512 192V32C512 14.3 497.7 0 480 0H320ZM80 32C35.8 32 0 67.8 0 112V432C0 476.2 35.8 512 80 512H400C444.2 512 480 476.2 480 432V320C480 302.3 465.7 288 448 288C430.3 288 416 302.3 416 320V432C416 440.8 408.8 448 400 448H80C71.2 448 64 440.8 64 432V112C64 103.2 71.2 96 80 96H192C209.7 96 224 81.7 224 64C224 46.3 209.7 32 192 32H80Z" fill="#7A7878"/>
+                  </g>
+                  <defs>
+                  <clipPath id="clip0_1_8">
+                  <rect width="512" height="512" fill="white"/>
+                  </clipPath>
+                  </defs>
+                  </svg>
+                  
+                  </a>
+              </div>
+            </div>
+          </div>
+          <div  class="prj-cont prj-cont-reverse"  >
+
+            <div class="prj-desc-cont prj-desc-cont-left">
+              <span class="prj-type">Academic Project</span>
+              <h3 class="prj-title">Perron Arcanum</h3>
+              <p class="prj-desc">This project is a customer-centric which helps in billing and payment during shopping. Some of the features are Barcode reader
+                for item addition, Bill generation, payment through payment gateway, Guest Login, etc. This application has greater scope in all
+                types of shops to prevent crowd and mistakes.
+              </p>
+              <ul class="tech-tools tech-tools-left">
+                <li>Java</li>
+                <li>Laravel</li>
+                <li>SQLite3</li>
+              </ul>
+              <div class="ext-links">
+                <a href="#" ><svg viewBox="0 0 496 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M165.9 397.4C165.9 399.4 163.6 401 160.7 401C157.4 401.3 155.1 399.7 155.1 397.4C155.1 395.4 157.4 393.8 160.3 393.8C163.3 393.5 165.9 395.1 165.9 397.4ZM134.8 392.9C134.1 394.9 136.1 397.2 139.1 397.8C141.7 398.8 144.7 397.8 145.3 395.8C145.9 393.8 144 391.5 141 390.6C138.4 389.9 135.5 390.9 134.8 392.9ZM179 391.2C176.1 391.9 174.1 393.8 174.4 396.1C174.7 398.1 177.3 399.4 180.3 398.7C183.2 398 185.2 396.1 184.9 394.1C184.6 392.2 181.9 390.9 179 391.2ZM244.8 8C106.1 8 0 113.3 0 252C0 362.9 69.8 457.8 169.5 491.2C182.3 493.5 186.8 485.6 186.8 479.1C186.8 472.9 186.5 438.7 186.5 417.7C186.5 417.7 116.5 432.7 101.8 387.9C101.8 387.9 90.4 358.8 74 351.3C74 351.3 51.1 335.6 75.6 335.9C75.6 335.9 100.5 337.9 114.2 361.7C136.1 400.3 172.8 389.2 187.1 382.6C189.4 366.6 195.9 355.5 203.1 348.9C147.2 342.7 90.8 334.6 90.8 238.4C90.8 210.9 98.4 197.1 114.4 179.5C111.8 173 103.3 146.2 117 111.6C137.9 105.1 186 138.6 186 138.6C206 133 227.5 130.1 248.8 130.1C270.1 130.1 291.6 133 311.6 138.6C311.6 138.6 359.7 105 380.6 111.6C394.3 146.3 385.8 173 383.2 179.5C399.2 197.2 409 211 409 238.4C409 334.9 350.1 342.6 294.2 348.9C303.4 356.8 311.2 371.8 311.2 395.3C311.2 429 310.9 470.7 310.9 478.9C310.9 485.4 315.5 493.3 328.2 491C428.2 457.8 496 362.9 496 252C496 113.3 383.5 8 244.8 8ZM97.2 352.9C95.9 353.9 96.2 356.2 97.9 358.1C99.5 359.7 101.8 360.4 103.1 359.1C104.4 358.1 104.1 355.8 102.4 353.9C100.8 352.3 98.5 351.6 97.2 352.9ZM86.4 344.8C85.7 346.1 86.7 347.7 88.7 348.7C90.3 349.7 92.3 349.4 93 348C93.7 346.7 92.7 345.1 90.7 344.1C88.7 343.5 87.1 343.8 86.4 344.8ZM118.8 380.4C117.2 381.7 117.8 384.7 120.1 386.6C122.4 388.9 125.3 389.2 126.6 387.6C127.9 386.3 127.3 383.3 125.3 381.4C123.1 379.1 120.1 378.8 118.8 380.4ZM107.4 365.7C105.8 366.7 105.8 369.3 107.4 371.6C109 373.9 111.7 374.9 113 373.9C114.6 372.6 114.6 370 113 367.7C111.6 365.4 109 364.4 107.4 365.7Z" fill="#7A7878"/>
+                  </svg>
+                  
+                  </a>
+                <a href="#"><svg viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_1_8)">
+                  <path d="M320 0C302.3 0 288 14.3 288 32C288 49.7 302.3 64 320 64H402.7L201.4 265.4C188.9 277.9 188.9 298.2 201.4 310.7C213.9 323.2 234.2 323.2 246.7 310.7L448 109.3V192C448 209.7 462.3 224 480 224C497.7 224 512 209.7 512 192V32C512 14.3 497.7 0 480 0H320ZM80 32C35.8 32 0 67.8 0 112V432C0 476.2 35.8 512 80 512H400C444.2 512 480 476.2 480 432V320C480 302.3 465.7 288 448 288C430.3 288 416 302.3 416 320V432C416 440.8 408.8 448 400 448H80C71.2 448 64 440.8 64 432V112C64 103.2 71.2 96 80 96H192C209.7 96 224 81.7 224 64C224 46.3 209.7 32 192 32H80Z" fill="#7A7878"/>
+                  </g>
+                  <defs>
+                  <clipPath id="clip0_1_8">
+                  <rect width="512" height="512" fill="white"/>
+                  </clipPath>
+                  </defs>
+                  </svg>
+                  
+                  </a>
+              </div>
+            </div>
+            <div class="prj-pic-cont">
+              <img src="./assets/images/Group_19.jpg" alt="Project 2"/>
+            </div>
+          </div>
+          <div  class="prj-cont"  >
+            <div class="prj-pic-cont prj-pic-cont-left">
+              <img src="./assets/images/UIS_UNH_Feedback_Flyer_II.png" alt="Project 1"/>
+            </div>
+            <div class="prj-desc-cont">
+              <span class="prj-type">Academic Project</span>
+              <h3 class="prj-title">Gaffer – Project Monitor</h3>
+              <p class="prj-desc">This is a corporate-centric project with a simple GUI which helps the team lead in managing the projects, members, clients and
+                visualize the data with graphs. It has greater scope in different corporate teams. It was implemented using Python Tkinter for
+                the UI and SQLite3 for the database.
+              </p>
+              <ul class="tech-tools">
+                <li>Python</li>
+                <li>Git</li>
+                <li>SQLite3</li>
+              </ul>
+              <div class="ext-links">
+                <a href="#" ><svg viewBox="0 0 496 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M165.9 397.4C165.9 399.4 163.6 401 160.7 401C157.4 401.3 155.1 399.7 155.1 397.4C155.1 395.4 157.4 393.8 160.3 393.8C163.3 393.5 165.9 395.1 165.9 397.4ZM134.8 392.9C134.1 394.9 136.1 397.2 139.1 397.8C141.7 398.8 144.7 397.8 145.3 395.8C145.9 393.8 144 391.5 141 390.6C138.4 389.9 135.5 390.9 134.8 392.9ZM179 391.2C176.1 391.9 174.1 393.8 174.4 396.1C174.7 398.1 177.3 399.4 180.3 398.7C183.2 398 185.2 396.1 184.9 394.1C184.6 392.2 181.9 390.9 179 391.2ZM244.8 8C106.1 8 0 113.3 0 252C0 362.9 69.8 457.8 169.5 491.2C182.3 493.5 186.8 485.6 186.8 479.1C186.8 472.9 186.5 438.7 186.5 417.7C186.5 417.7 116.5 432.7 101.8 387.9C101.8 387.9 90.4 358.8 74 351.3C74 351.3 51.1 335.6 75.6 335.9C75.6 335.9 100.5 337.9 114.2 361.7C136.1 400.3 172.8 389.2 187.1 382.6C189.4 366.6 195.9 355.5 203.1 348.9C147.2 342.7 90.8 334.6 90.8 238.4C90.8 210.9 98.4 197.1 114.4 179.5C111.8 173 103.3 146.2 117 111.6C137.9 105.1 186 138.6 186 138.6C206 133 227.5 130.1 248.8 130.1C270.1 130.1 291.6 133 311.6 138.6C311.6 138.6 359.7 105 380.6 111.6C394.3 146.3 385.8 173 383.2 179.5C399.2 197.2 409 211 409 238.4C409 334.9 350.1 342.6 294.2 348.9C303.4 356.8 311.2 371.8 311.2 395.3C311.2 429 310.9 470.7 310.9 478.9C310.9 485.4 315.5 493.3 328.2 491C428.2 457.8 496 362.9 496 252C496 113.3 383.5 8 244.8 8ZM97.2 352.9C95.9 353.9 96.2 356.2 97.9 358.1C99.5 359.7 101.8 360.4 103.1 359.1C104.4 358.1 104.1 355.8 102.4 353.9C100.8 352.3 98.5 351.6 97.2 352.9ZM86.4 344.8C85.7 346.1 86.7 347.7 88.7 348.7C90.3 349.7 92.3 349.4 93 348C93.7 346.7 92.7 345.1 90.7 344.1C88.7 343.5 87.1 343.8 86.4 344.8ZM118.8 380.4C117.2 381.7 117.8 384.7 120.1 386.6C122.4 388.9 125.3 389.2 126.6 387.6C127.9 386.3 127.3 383.3 125.3 381.4C123.1 379.1 120.1 378.8 118.8 380.4ZM107.4 365.7C105.8 366.7 105.8 369.3 107.4 371.6C109 373.9 111.7 374.9 113 373.9C114.6 372.6 114.6 370 113 367.7C111.6 365.4 109 364.4 107.4 365.7Z" fill="#7A7878"/>
+                  </svg>
+                  
+                  </a>
+                <a href="#"><svg viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_1_8)">
+                  <path d="M320 0C302.3 0 288 14.3 288 32C288 49.7 302.3 64 320 64H402.7L201.4 265.4C188.9 277.9 188.9 298.2 201.4 310.7C213.9 323.2 234.2 323.2 246.7 310.7L448 109.3V192C448 209.7 462.3 224 480 224C497.7 224 512 209.7 512 192V32C512 14.3 497.7 0 480 0H320ZM80 32C35.8 32 0 67.8 0 112V432C0 476.2 35.8 512 80 512H400C444.2 512 480 476.2 480 432V320C480 302.3 465.7 288 448 288C430.3 288 416 302.3 416 320V432C416 440.8 408.8 448 400 448H80C71.2 448 64 440.8 64 432V112C64 103.2 71.2 96 80 96H192C209.7 96 224 81.7 224 64C224 46.3 209.7 32 192 32H80Z" fill="#7A7878"/>
+                  </g>
+                  <defs>
+                  <clipPath id="clip0_1_8">
+                  <rect width="512" height="512" fill="white"/>
+                  </clipPath>
+                  </defs>
+                  </svg>
+                  
+                  </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- -------------Blog Section ------------------------------ -->
+      <section id="blog-sec">
+        <h2>My Blogs</h2>
+        <div id="blog-sec-cont" class="sec-cont">
+
+          <div class="blog-cont">
+            <div class="blog-img-cont">
+              <img src="./assets/images/Blog1.jpg" alt="blog1 image"/>
+            </div>
+            <div class="blog-desc-cont">
+              <a target="_blank" href="https://medium.com/@dipeshshrestha0314/become-a-productive-web-developer-9f2949bc80b3">
+
+                <span class="blog-title">Become a Productive Web Developer</span>
+                <span class="blog-date">Jun 26, 2020</span>
+              </a>
+              <!-- <span class="blog-">Tag1</span> -->
+            </div>
+          </div>
+          <div class="blog-cont">
+            <div class="blog-img-cont">
+              <img src="./assets/images/Blog2.jpg" alt="blog2 image"/>
+            </div>
+            <div class="blog-desc-cont">
+              <span class="blog-title">How to write a great resume.</span>
+              <span class="blog-date">Jul 24, 2020</span>
+              <!-- <span class="blog-">Tag1</span> -->
+            </div>
+          </div>
+          <div class="blog-cont">
+            <div class="blog-img-cont">
+              <img src="./assets/images/web-dev.jpg" alt="blog3 image"/>
+            </div>
+            <div class="blog-desc-cont">
+              <span class="blog-title">Blog 3</span>
+              <span class="blog-date">Date 3</span>
+              <!-- <span class="blog-">Tag1</span> -->
+            </div>
+          </div>
+          <div class="blog-cont">
+            <div class="blog-img-cont">
+              <img src="./assets/images/cn3.png" alt="blog4 image"/>
+            </div>
+            <div class="blog-desc-cont">
+              <span class="blog-title">Blog 4</span>
+              <span class="blog-date">Date 4</span>
+              <!-- <span class="blog-">Tag1</span> -->
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ----------------------Contact Me Section------------------------ -->
+      <section id="contact-sec">
+        <div id="contact-sec-cont" class="sec-cont">
+
+          <h2>Contact</h2>
+          <p>I’m currently looking for new job opportunities as well as if you wanna collaborate, Please feel free to reach out to me.</p>
+          <form id="contact-form">
+              <input placeholder="First Name" id="fname" />
+              <input placeholder="Last Name" id="lname"/>
+              <input placeholder="Email" id="email"/>
+              <input placeholder="Message Subject" id="msg_sub"/>
+              <textarea placeholder="Message" id="msg"></textarea>
+              <input type="button" value="Submit" id="contact-submit-btn"/>
+          </form>
+          <div id="social-links">
+            <ul>
+              <li>
+                <a target="_blank" href="https://www.github.com/dipeshshresthaofficial">
+                <svg viewBox="0 0 496 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M165.9 397.4C165.9 399.4 163.6 401 160.7 401C157.4 401.3 155.1 399.7 155.1 397.4C155.1 395.4 157.4 393.8 160.3 393.8C163.3 393.5 165.9 395.1 165.9 397.4ZM134.8 392.9C134.1 394.9 136.1 397.2 139.1 397.8C141.7 398.8 144.7 397.8 145.3 395.8C145.9 393.8 144 391.5 141 390.6C138.4 389.9 135.5 390.9 134.8 392.9ZM179 391.2C176.1 391.9 174.1 393.8 174.4 396.1C174.7 398.1 177.3 399.4 180.3 398.7C183.2 398 185.2 396.1 184.9 394.1C184.6 392.2 181.9 390.9 179 391.2ZM244.8 8C106.1 8 0 113.3 0 252C0 362.9 69.8 457.8 169.5 491.2C182.3 493.5 186.8 485.6 186.8 479.1C186.8 472.9 186.5 438.7 186.5 417.7C186.5 417.7 116.5 432.7 101.8 387.9C101.8 387.9 90.4 358.8 74 351.3C74 351.3 51.1 335.6 75.6 335.9C75.6 335.9 100.5 337.9 114.2 361.7C136.1 400.3 172.8 389.2 187.1 382.6C189.4 366.6 195.9 355.5 203.1 348.9C147.2 342.7 90.8 334.6 90.8 238.4C90.8 210.9 98.4 197.1 114.4 179.5C111.8 173 103.3 146.2 117 111.6C137.9 105.1 186 138.6 186 138.6C206 133 227.5 130.1 248.8 130.1C270.1 130.1 291.6 133 311.6 138.6C311.6 138.6 359.7 105 380.6 111.6C394.3 146.3 385.8 173 383.2 179.5C399.2 197.2 409 211 409 238.4C409 334.9 350.1 342.6 294.2 348.9C303.4 356.8 311.2 371.8 311.2 395.3C311.2 429 310.9 470.7 310.9 478.9C310.9 485.4 315.5 493.3 328.2 491C428.2 457.8 496 362.9 496 252C496 113.3 383.5 8 244.8 8ZM97.2 352.9C95.9 353.9 96.2 356.2 97.9 358.1C99.5 359.7 101.8 360.4 103.1 359.1C104.4 358.1 104.1 355.8 102.4 353.9C100.8 352.3 98.5 351.6 97.2 352.9ZM86.4 344.8C85.7 346.1 86.7 347.7 88.7 348.7C90.3 349.7 92.3 349.4 93 348C93.7 346.7 92.7 345.1 90.7 344.1C88.7 343.5 87.1 343.8 86.4 344.8ZM118.8 380.4C117.2 381.7 117.8 384.7 120.1 386.6C122.4 388.9 125.3 389.2 126.6 387.6C127.9 386.3 127.3 383.3 125.3 381.4C123.1 379.1 120.1 378.8 118.8 380.4ZM107.4 365.7C105.8 366.7 105.8 369.3 107.4 371.6C109 373.9 111.7 374.9 113 373.9C114.6 372.6 114.6 370 113 367.7C111.6 365.4 109 364.4 107.4 365.7Z" fill="#7A7878"/>
+                  </svg>
+                </a>  
+              </li>
+              <li>
+                <a  target="_blank" href="https://www.linkedin.com/in/dipesh0314">
+                <svg viewBox="0 0 448 448" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M416 0H31.9C14.3 0 0 14.5 0 32.3V415.7C0 433.5 14.3 448 31.9 448H416C433.6 448 448 433.5 448 415.7V32.3C448 14.5 433.6 0 416 0ZM135.4 384H69V170.2H135.5V384H135.4ZM102.2 141C80.9 141 63.7 123.7 63.7 102.5C63.7 81.3 80.9 64 102.2 64C123.4 64 140.7 81.3 140.7 102.5C140.7 123.8 123.5 141 102.2 141ZM384.3 384H317.9V280C317.9 255.2 317.4 223.3 283.4 223.3C248.8 223.3 243.5 250.3 243.5 278.2V384H177.1V170.2H240.8V199.4H241.7C250.6 182.6 272.3 164.9 304.6 164.9C371.8 164.9 384.3 209.2 384.3 266.8V384Z" fill="#7A7878"/>
+                  </svg>
+                </a>  
+              </li>
+              <li>
+                <a target="_blank" href="https://www.facebook.com/dipesh0314/">
+                <svg viewBox="0 0 496 493" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M496 248C496 111 385 0 248 0C111 0 0 111 0 248C0 371.78 90.69 474.38 209.25 493V319.69H146.25V248H209.25V193.36C209.25 131.21 246.25 96.88 302.92 96.88C330.06 96.88 358.44 101.72 358.44 101.72V162.72H327.16C296.36 162.72 286.75 181.84 286.75 201.45V248H355.53L344.53 319.69H286.75V493C405.31 474.38 496 371.78 496 248Z" fill="#7A7878"/>
+                  </svg>
+                </a>  
+              </li>
+              <li>
+                <a target="_blank" href="https://www.instagram.com/dipesh.shrestha1/">
+                <svg viewBox="0 0 496 493" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M224.1 141C160.5 141 109.2 192.3 109.2 255.9C109.2 319.5 160.5 370.8 224.1 370.8C287.7 370.8 339 319.5 339 255.9C339 192.3 287.7 141 224.1 141ZM224.1 330.6C183 330.6 149.4 297.1 149.4 255.9C149.4 214.7 182.9 181.2 224.1 181.2C265.3 181.2 298.8 214.7 298.8 255.9C298.8 297.1 265.2 330.6 224.1 330.6ZM370.5 136.3C370.5 151.2 358.5 163.1 343.7 163.1C328.8 163.1 316.9 151.1 316.9 136.3C316.9 121.5 328.9 109.5 343.7 109.5C358.5 109.5 370.5 121.5 370.5 136.3ZM446.6 163.5C444.9 127.6 436.7 95.8 410.4 69.6C384.2 43.4 352.4 35.2 316.5 33.4C279.5 31.3 168.6 31.3 131.6 33.4C95.8001 35.1 64 43.3 37.7001 69.5C11.4001 95.7 3.30005 127.5 1.50005 163.4C-0.599951 200.4 -0.599951 311.3 1.50005 348.3C3.20005 384.2 11.4001 416 37.7001 442.2C64 468.4 95.7001 476.6 131.6 478.4C168.6 480.5 279.5 480.5 316.5 478.4C352.4 476.7 384.2 468.5 410.4 442.2C436.6 416 444.8 384.2 446.6 348.3C448.7 311.3 448.7 200.5 446.6 163.5ZM398.8 388C391 407.6 375.9 422.7 356.2 430.6C326.7 442.3 256.7 439.6 224.1 439.6C191.5 439.6 121.4 442.2 92 430.6C72.4 422.8 57.3001 407.7 49.4001 388C37.7001 358.5 40.4001 288.5 40.4001 255.9C40.4001 223.3 37.8001 153.2 49.4001 123.8C57.2001 104.2 72.3 89.1 92 81.2C121.5 69.5 191.5 72.2 224.1 72.2C256.7 72.2 326.8 69.6 356.2 81.2C375.8 89 390.9 104.1 398.8 123.8C410.5 153.3 407.8 223.3 407.8 255.9C407.8 288.5 410.5 358.6 398.8 388Z" fill="#7A7878"/>
+                  </svg>
+                </a>  
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- Footer -->
+      <section id="footer-sec">
+        <p>&copy; Designed & Developed by <span><a href="https://www.linkedin.com/in/dipesh0314/">Dipesh Shrestha</a></span></p>
+      </section>
+    
+      
+    </div>
+    <script src="./assets/script.js"></script>
+    <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+    <!-- <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script> -->
+</body>
+
+</html>

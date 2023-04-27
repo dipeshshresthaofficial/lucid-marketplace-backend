@@ -1,0 +1,109 @@
+{"data":
+[{
+    "id": 7,
+    "name":"Study Table Setup",
+    "category":"home",
+    "imageUrl":"https://tinyurl.com/y2nc3m5f",
+    "price":149.99,
+    "dateFirstAdded":"01-22-2023",
+    "location": "West Haven, CT",
+    "condition": "Used",
+    "description": "High quality study table with rgb setup. This set up gives coding vibes all night.",
+    "seller": "Dipesh Shrestha"
+},
+{
+"id":4,
+"name":"Pool Table",
+"category":"Games",
+"imageUrl":"https://tinyurl.com/edn3v87r",
+"price":2300,
+"dateFirstAdded":"11-29-2017",
+"location": "Hamden, CT",
+"condition": "Used",
+"description": "Minor Scratches but in good condition.",
+"seller": "Deepen Rana"
+},{
+    "id": 6,
+    "name":"Combo: 4 Wall Posters",
+    "category":"home",
+    "imageUrl":"https://tinyurl.com/57jsvs77",
+    "price":49.99,
+    "dateFirstAdded":"04-22-2023",
+    "location": "West Haven, CT",
+    "condition": "New",
+    "description": "High Quality colored wall posters of great personnels. Best best when posted just above the study table.",
+    "seller": "Dipesh Shrestha"
+},
+{
+"id":2,
+"name":"Loveseat Sofa",
+"category":"furniture",
+"imageUrl":"https://tinyurl.com/yckyj2xz",
+"price":1200,
+"dateFirstAdded":"04-22-2022",
+"location": "West Haven, CT",
+"condition": "Used",
+"description": "Comfortable sofa for daily use.",
+"seller": "Travis Mills"
+},
+{
+    "id":8,
+    "name":"Wrist Band of I-Fest Winner",
+    "category":"fashion",
+    "imageUrl":"https://tinyurl.com/ymwc629f",
+    "price":1000,
+    "dateFirstAdded":"03-22-2023",
+    "location": "West Haven, CT",
+    "condition": "Used",
+    "description": "This is the wrist band worn by Dipesh Shrestha (band member of Nepali Musical Band in UNH) who recently won I-Fest competition. He also signed on this band, so hurry up guys grab it soon.",
+    "seller": "Chairman of UNH"
+},
+{
+"id":3,
+"name":"Twin Bed with Matress",
+"category":"furniture",
+"imageUrl":"https://tinyurl.com/2ak9vfku",
+"price":1950,
+"dateFirstAdded":"01-17-2019",
+"location": "New York, NY",
+"condition": "Used",
+"description": "High quality build material with comfortable matress.",
+"seller": "Harihar Thapa"
+},
+{
+"id":1,
+"name":"2006 BMW 325i",
+"category":"auto",
+"imageUrl":"https://tinyurl.com/2eyzws4v",
+"price":55000,
+"dateFirstAdded":"04-22-2021",
+"location": "Gilford, NH",
+"condition": "New",
+"description": "This is a sport car..",
+"seller": "Dipesh Shrestha"
+},
+{
+"id":5,
+"name":"Bedroom Dresser",
+"category":"Furniture",
+"imageUrl":"https://tinyurl.com/yc2tyu9b",
+"price":900,
+"dateFirstAdded":"05-12-2022",
+"location": "Seattle, WA",
+"condition": "New",
+"description": "Brand new dresser with mirror looks beautiful in bedroom. Bought few months ago but had to sell it in emergency because need to shift to different location.",
+"seller": "Sujan Bhusal"
+},
+{
+    "id":9,
+    "name":"Toy: Transformer",
+    "category":"toy",
+    "imageUrl":"https://tinyurl.com/mww35wt7",
+    "price":14.99,
+    "dateFirstAdded":"02-12-2023",
+    "location": "West Haven, CT",
+    "condition": "New",
+    "description": "This toy may not be a optimus prime but will give the same amount of joy to your kids.",
+    "seller": "Dipesh Shrestha"
+    }
+]}
