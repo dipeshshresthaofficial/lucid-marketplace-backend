@@ -1,0 +1,110 @@
+{"data":
+[{
+    "id": 7,
+    "name":"Study Table Setup",
+    "category":"home",
+    "imageUrl":"https://scontent-bos5-1.xx.fbcdn.net/v/t39.30808-6/343143375_162265473452198_6903159349515385670_n.jpg?stp=cp6_dst-jpg&_nc_cat=101&ccb=1-7&_nc_sid=730e14&_nc_ohc=1CXBlyGMhjUAX8OnA7g&_nc_ht=scontent-bos5-1.xx&oh=00_AfDjG2p4yHK6ZJ1-PMY_YwstPmt58DXhwpwjJVPacHJKZQ&oe=64504DE8",
+    "price":149.99,
+    "dateFirstAdded":"01-22-2023",
+    "location": "West Haven, CT",
+    "isUsed": true,
+    "description": "High quality study table with rgb setup. This set up gives coding vibes all night.",
+    "seller": "Dipesh Shrestha"
+},
+{
+"id":4,
+"name":"Pool Table",
+"category":"games",
+"imageUrl":"https://www.thespruce.com/thmb/hTsnl-ru_nQhLdb1ELw1l8WABcw=/3000x2000/filters:no_upscale()/how-to-clean-pool-table-felt-5270588-hero-562d4fb75977462f893fa75c64269af0.jpg",
+"price":2300.00,
+"dateFirstAdded":"11-29-2017",
+"location": "Hamden, CT",
+"isUsed": true,
+"description": "Minor scratches but in good condition.",
+"seller": "Deepen Rana"
+},
+{
+    "id": 6,
+    "name":"Combo: 4 Wall Posters",
+    "category":"home",
+    "imageUrl":"https://scontent-bos5-1.xx.fbcdn.net/v/t39.30808-6/342957260_3419511518310898_6740519232233445450_n.jpg?stp=cp6_dst-jpg&_nc_cat=101&ccb=1-7&_nc_sid=730e14&_nc_ohc=JNZNry-ET5YAX9qt_n1&_nc_oc=AQlGVhRPIuqfwmT404dTryZnIDvAH9arxsYihJyR6Ql2wBaAF23sGJSXzFPz0TfeKanAbb4PnPmqKAAz2-5KFEve&_nc_ht=scontent-bos5-1.xx&oh=00_AfALkcgwsGs3SHF-_uA51Zgh-3Vlg19ZgrGuMj_vbHpK0w&oe=6451E6C8",
+    "price":49.99,
+    "dateFirstAdded":"04-22-2023",
+    "location": "West Haven, CT",
+    "isUsed": false,
+    "description": "High Quality colored wall posters of great personnels. Best best when posted just above the study table.",
+    "seller": "Sujan Bhusal"
+},
+{
+"id":2,
+"name":"Loveseat Sofa",
+"category":"furniture",
+"imageUrl":"https://tinyurl.com/yckyj2xz",
+"price":1200.00,
+"dateFirstAdded":"04-22-2022",
+"location": "West Haven, CT",
+"isUsed": true,
+"description": "Comfortable sofa for daily use.",
+"seller": "Anbeesh Rawal"
+},
+{
+    "id":8,
+    "name":"Wrist Band of I-Fest Winner",
+    "category":"fashion",
+    "imageUrl":"https://scontent-bos5-1.xx.fbcdn.net/v/t39.30808-6/343068448_489332979974686_6525093969481288225_n.jpg?stp=cp6_dst-jpg&_nc_cat=109&ccb=1-7&_nc_sid=730e14&_nc_ohc=UjyGTkTAVzAAX-1QiGg&_nc_ht=scontent-bos5-1.xx&oh=00_AfAsJNtOa7-WyKwQD7P7ad5857YJA6ZZT2pArpTcHyiBrQ&oe=64513415",
+    "price":1000,
+    "dateFirstAdded":"03-22-2023",
+    "location": "West Haven, CT",
+    "isUsed": true,
+    "description": "This is the wrist band worn by Dipesh Shrestha (band member of Nepali Musical Band in UNH) who recently won I-Fest competition. He also signed on this band, so hurry up guys grab it soon.",
+    "seller": "Travis Mills"
+},
+{
+"id":3,
+"name":"Twin Bed with Matress",
+"category":"furniture",
+"imageUrl":"https://www.hertoolbelt.com/wp-content/uploads/2016/01/Simple-twin-bed-trundle-mattress.jpg",
+"price":1950,
+"dateFirstAdded":"01-17-2019",
+"location": "New York, NY",
+"isUsed": true,
+"description": "High quality build material with comfortable matress.",
+"seller": "Harihar Thapa"
+},
+{
+"id":1,
+"name":"Ford Mustang",
+"category":"auto",
+"imageUrl":"https://static.cargurus.com/images/site/2007/10/01/15/48/ford_mustang-pic-873-640x480.jpeg",
+"price":25000,
+"dateFirstAdded":"01-17-2019",
+"location": "New York, NY",
+"isUsed": true,
+"description": "High quality build material with comfortable matress.",
+"seller": "Harihar Thapa"
+},
+{
+"id":5,
+"name":"Bedroom Dresser",
+"category":"furniture",
+"imageUrl":"https://d12mivgeuoigbq.cloudfront.net/magento-media/catalog/product/2/8/28328275-c669-4d23-950d-3b9ad6b6340a.jpg?w=640",
+"price":900,
+"dateFirstAdded":"05-12-2022",
+"location": "Seattle, WA",
+"isUsed": false,
+"description": "Brand new dresser with mirror looks beautiful in bedroom. Bought few months ago but had to sell it in emergency because need to shift to different location.",
+"seller": "Sujan Bhusal"
+},
+{
+    "id":9,
+    "name":"Toy: Transformer",
+    "category":"toy",
+    "imageUrl":"https://scontent-bos5-1.xx.fbcdn.net/v/t39.30808-6/343102566_783000903042250_5545369069171799648_n.jpg?stp=cp6_dst-jpg&_nc_cat=106&ccb=1-7&_nc_sid=730e14&_nc_ohc=hNoN2G3gkdgAX860ptX&_nc_ht=scontent-bos5-1.xx&oh=00_AfAQLrfzgLA8yuQURzWrECWRzInlSFs48oKFtPxxXUXUlQ&oe=6450128A",
+    "price":14.99,
+    "dateFirstAdded":"02-12-2023",
+    "location": "West Haven, CT",
+    "isUsed": false,
+    "description": "This toy may not be a optimus prime but will give the same amount of joy to your kids.",
+    "seller": "Dipesh Shrestha"
+    }
+]}
