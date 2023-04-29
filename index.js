@@ -49,7 +49,7 @@ async function connectToMongoDB(){
 }
 
 const server = http.createServer((req,res)=>{
-    if(req.url === '/'){
+    if(req.url === '/api'){
         fs.readFile(path.join(__dirname,'public','index.html'),(err, content)=>{
             if(err) throw err;
             res.setHeader('Access-Control-Allow-Origin', '*');
@@ -83,7 +83,7 @@ const server = http.createServer((req,res)=>{
         res.writeHead(200,{'Content-Type': 'image/png'});
         filestream.pipe(res);
     }
-    else if(req.url === '/api'){
+    else if(req.url === '/'){
         //Connecting to MongoDB
         connectToMongoDB();
         
